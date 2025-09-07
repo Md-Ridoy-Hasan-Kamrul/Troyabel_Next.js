@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import "tailwindcss";
+
+body {
+  background: linear-gradient(to right, #0a0a0a, #1a0f24, #0a0a0a);
+  font-family: "Fira Sans Condensed", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.scrollbar-purple::-webkit-scrollbar {
+  width: 8px; /* width of the scrollbar */
+}
+
+.scrollbar-purple::-webkit-scrollbar-track {
+  background: transparent; /* transparent background */
+}
+
+.scrollbar-purple::-webkit-scrollbar-thumb {
+  background-color: #A63EE7; /* purple color */
+  border-radius: 9999px; /* rounded scrollbar */
+  border: 2px solid transparent; /* optional spacing around thumb */
+}
+
+/* Firefox */
+.scrollbar-purple {
+  scrollbar-width: thin;
+  scrollbar-color: #A63EE7 transparent;
+}
